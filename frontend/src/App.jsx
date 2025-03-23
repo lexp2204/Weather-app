@@ -8,7 +8,7 @@ function App() {
   //async function fetchWeather
   const fetchWeather= async ()=>{
     try{
-      const response= await axios.get(`http://localhost:3000/api/weather/${city}`)
+      const response= await axios.get(`http://localhost:3000/api/weather/${city}`) //Api end point
       setWeather(response.data)
     }catch(error){
       console.error("Error fetching weather data", error)
@@ -25,7 +25,9 @@ function App() {
         <div>
           <h2>{weather.name}</h2>
           <p>Temperature: {weather.main.temp}°C</p>
-          <p>Weather: {weather.weather[0].description}</p>
+          <p>Weather Description: {weather.weather[0].description}</p>
+          <p>Wind speed: {weather.wind.speed}</p>
+          <p>Humidity: {weather.main.humidity}</p>
         </div>
       )}
     </div>
