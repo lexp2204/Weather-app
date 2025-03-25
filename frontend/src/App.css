@@ -66,12 +66,12 @@ img{
 .image-container{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .weather-img{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
 }
 
 .temp{
@@ -79,6 +79,7 @@ img{
     font-weight: 200;
     font-size: 40px;
     text-align: center;
+    padding-top: 8px;
 }
 
 .description{
@@ -86,6 +87,7 @@ img{
     text-align: center;
     color: #E5E5EA;
     font-weight: 100;
+    padding-top: 5px;
     padding-bottom: 25px;
 }
 
@@ -94,6 +96,7 @@ img{
     margin: 0 25px;
     display: flex;
     gap: 10px;
+    padding-top: 20px;
 }
 
 .humidity-img{
