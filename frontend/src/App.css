@@ -1,42 +1,127 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0; 
+    font-family: "Inter", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-container{
+    background-color: #5B95C4;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 500px;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.input-container{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+    gap: 5px;
+    
 }
 
-.card {
-  padding: 2em;
+.search{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    width: 150px;
+    
 }
 
-.read-the-docs {
-  color: #888;
+button{
+    padding: 0;
+    width: 35px;
+    border: none
+   
+}
+
+button, img{
+    background-color: transparent;
+
+}
+
+img{
+    width: 20px;
+    height:20px;
+}
+
+.location-name{
+    text-align: center;
+    font-size: 28px;
+    color: #E5E5EA;
+    font-weight: 200;
+    padding-top: 30px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.weather-img{
+    width: 100px;
+    height: 100px;
+}
+
+.temp{
+    color: #E5E5EA;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+}
+
+.description{
+    font-size: 16px;
+    text-align: center;
+    color: #E5E5EA;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+
+.more-info{
+    font-size: 12px;
+    margin: 0 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.humidity-img{
+    width: 40px;
+    height: 40px;
+}
+
+.humidity-num{
+    color: #E5E5EA;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.humidity-title{
+    color: #1E1E1E;
+}
+
+.wind-img{
+    width: 40px;
+    height: 40px;
+}
+
+.wind-num{
+    color: #E5E5EA;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.wind-title{
+    color: #1E1E1E;
 }
