@@ -19,6 +19,8 @@
 
 ✅ Uses Axios to make HTTP requests to the backend 
 
+✅ Images dynamically change based off the description of the weather
+
 ✅ Clean Design  
 
 ---
