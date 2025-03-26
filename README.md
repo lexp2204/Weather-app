@@ -12,9 +12,13 @@
 
 ## 📌 Features  
 ✅ Real-time weather data (temperature, humidity, wind speed)
+
 ✅ Fetch data from a Node.js/Express backend 
+
 ✅ Frontend built with React.js
+
 ✅ Uses Axios to make HTTP requests to the backend 
+
 ✅ Clean Design  
 
 ---
