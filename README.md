@@ -13,7 +13,7 @@
 ## 📌 Features  
 ✅ Real-time weather data (temperature, humidity, wind speed)
 
-✅ Fetch data from a Node.js/Express backend 
+✅ Fetch data from a Node.js/Express backend using the OpenWeatherAPI
 
 ✅ Frontend built with React.js
 
