@@ -5,7 +5,7 @@
 
 ![Weather App](Weather-app.png)  
 
-## 🚀 Video Demo  
+## 🌐 Video Demo  
 🔗 [View Project Video](https://app.screencastify.com/v3/watch/Q3EO49pnQQXPrlwu8z5v)
 
 ---
